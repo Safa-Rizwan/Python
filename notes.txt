@@ -1,0 +1,74 @@
+list1=[2,3,4,5,6,6]
+new1=list1[1:2] # [3] --- list
+new2=list1[2:3] # [4] --- list 
+add= int(new1) + int(new2)
+print(add)
+
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+addition of two list using typecasting will give an error
+
+for commenting out using #
+
+Boolean Values:
+1-True
+2-False
+
+Comparison OPerators :
+4>5 -----> False (less than)
+3<5 -----> True (greater than)
+7==3 -----> False  (Equals to)
+4!=7 ------> True   (Not Equals to)
+
+
+CODE:
+#print(3<9) ----> less than
+#print(4==6) ----> equality
+#print(4!=6) # not equals
+#print(5>2) # ----> greater 
+a=4
+b=7
+#print(a<b) # ----(4<7) ----> True
+#print(b>a) #---(7>4) ----> True
+#print(a==b)
+#print(a!=b) 
+#print(a!=4)
+#var1="apple" #----> 97
+#var2="Apple" # ---> 65
+#print(var1<var2)
+
+x= True
+y= False
+print(x or y) #(1 + 0) 
+print(x and y) #(1 x 0)
+
+Logical Operators:
+1- OR  (+)---------------- condition1 0r condition2 
+Cases:
+True or True = True
+True or False = True
+False or True = True
+False or False = False
+
+2- AND (x) ---------------------condition1 and condition2 
+Cases:
+True and True =  True
+True and False = False
+False and True = False
+False and False = False
+
+3- NOT 
+cases:
+not(True)= False
+not(False)=True
+
+True ---->1
+False ---->0
+
+Conditionals Statements:
+if condition1:
+     #code
+else:
+     #code
+
+

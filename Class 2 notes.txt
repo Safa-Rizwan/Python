@@ -1,0 +1,23 @@
+Data types-----> list
+[3,5,7,9]
+
+Methods:
+count()----this will show you how many times the element is repeating
+pop()-----it removes the last element of list
+remove()-----removes the first item with specified
+sort()----- it will sort the list
+but all elements in list should be of same data type.
+reverse()----- it reverse the order of elemets
+
+Index: position of element (Id)
+Indexing always start from zero by default.
+
+index()-----it gives the postion of given element in a list.
+extend()----- it merges two lists
+append()----- it add elements in a list (at the end)
+insert()------it add element in a list but on a specified position. Take 2 Arguments.
+clear()----- it removes all elements.
+copy()----- it copy all elements with list in assign variable.
+
+
+Arguments: Values that pass in a function/methods. 
